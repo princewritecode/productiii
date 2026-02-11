@@ -282,10 +282,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
-
+- GitHub: [@princewritecode](https://github.com/princewritecode)
+- LinkedIn: [Prince Patel](www.linkedin.com/in/princecode)
 ---
 
 ## 🙏 Acknowledgments
