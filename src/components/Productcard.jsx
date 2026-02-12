@@ -1,15 +1,19 @@
-export const Productcard = ({ product }) => {
+import { useDispatch } from "react-redux";
+import { additem } from "../utils/cartslice";
+export const Productcard = ({ product }) =>
+{
+    const dispatch = useDispatch();
     return (
         <div className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden transform hover:-translate-y-2 cursor-pointer">
             {/* Image Container */}
             <div className="relative overflow-hidden bg-gray-100 aspect-square">
-                <img 
-                    src={product.image} 
+                <img
+                    src={product.image}
                     alt={product.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                
+
                 {/* Quick View Badge */}
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-semibold text-gray-800 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-4 group-hover:translate-x-0">
                     Quick View
@@ -47,11 +51,14 @@ export const Productcard = ({ product }) => {
                             </svg>
                         ))}
                     </div>
-                    <span className="text-sm text-gray-600 font-medium">(4.9)</span>
+                    <span className="text-sm text-gray-600 font-medium">{product.rating.rate}</span>
                 </div>
 
                 {/* Add to Cart Button */}
-                <button className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3.5 px-6 rounded-xl transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-xl flex items-center justify-center gap-2 group/btn">
+                <button onClick={() =>
+                {
+                    dispatch(additem(product));
+                }} className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-3.5 px-6 rounded-xl transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] shadow-md hover:shadow-xl flex items-center justify-center gap-2 group/btn cursor-pointer">
                     <svg className="w-5 h-5 group-hover/btn:scale-110 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                     </svg>

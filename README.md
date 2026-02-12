@@ -19,6 +19,7 @@
 ## ✨ Features
 
 ### 🎨 **Modern UI/UX Design**
+
 - **Responsive Design** - Fully responsive across all devices (mobile, tablet, desktop)
 - **Smooth Animations** - Beautiful hover effects, transitions, and micro-interactions
 - **Gradient Backgrounds** - Eye-catching gradient color schemes throughout
@@ -26,6 +27,7 @@
 - **Dark Mode Ready** - Clean, professional design system
 
 ### 🛒 **E-Commerce Functionality**
+
 - **Product Catalog** - Dynamic product grid with real-time API integration
 - **Product Details** - Comprehensive product pages with:
   - High-quality image display with zoom effects
@@ -39,6 +41,7 @@
 - **Discount System** - Dynamic pricing with promotional badges
 
 ### 🚀 **Performance & Architecture**
+
 - **React Router** - Client-side routing for seamless navigation
 - **Redux Toolkit** - State management for cart and user data
 - **API Integration** - FakeStore API for product data
@@ -47,6 +50,7 @@
 - **Fast Refresh** - Lightning-fast HMR with Vite
 
 ### 🎯 **User Experience**
+
 - **Sticky Navigation** - Always-accessible header with mobile menu
 - **Loading States** - Beautiful loading spinners and skeletons
 - **Back Navigation** - Intuitive navigation with back buttons
@@ -55,6 +59,7 @@
 - **Stock Status** - Real-time inventory information
 
 ### 📱 **Responsive Components**
+
 - **Mobile-First Design** - Optimized for mobile devices
 - **Hamburger Menu** - Collapsible mobile navigation
 - **Grid Layouts** - Adaptive grid system (1-4 columns based on screen size)
@@ -65,16 +70,19 @@
 ## 🛠️ Tech Stack
 
 ### **Frontend**
+
 - **React 19.2.0** - Latest React with concurrent features
 - **Vite 8.0.0** - Next-generation frontend tooling
 - **TailwindCSS 4.1.18** - Utility-first CSS framework
 - **React Router 7.13.0** - Declarative routing
 
 ### **State Management**
+
 - **Redux Toolkit 2.11.2** - Modern Redux with less boilerplate
 - **React-Redux 9.2.0** - Official React bindings for Redux
 
 ### **Development Tools**
+
 - **ESLint** - Code linting and quality checks
 - **Vite Plugin React** - Fast Refresh and JSX support
 - **PostCSS** - CSS transformations
@@ -84,21 +92,25 @@
 ## 📦 Installation
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn
 
 ### Clone the Repository
+
 ```bash
 git clone https://github.com/yourusername/productiii.git
 cd productiii
 ```
 
 ### Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### Run Development Server
+
 ```bash
 npm run dev
 ```
@@ -106,11 +118,13 @@ npm run dev
 The app will be available at `http://localhost:5173`
 
 ### Build for Production
+
 ```bash
 npm run build
 ```
 
 ### Preview Production Build
+
 ```bash
 npm run preview
 ```
@@ -149,12 +163,14 @@ Productiii/
 ## 🎨 Key Components
 
 ### **Header Component**
+
 - Sticky navigation bar
 - Mobile-responsive hamburger menu
 - Shopping cart with item counter
 - Smooth transitions and hover effects
 
 ### **Product Card**
+
 - Hover animations with scale effects
 - Quick view badge
 - Wishlist heart icon
@@ -163,6 +179,7 @@ Productiii/
 - Add to cart button
 
 ### **Product Info Page**
+
 - Large product image with hover zoom
 - Size selector
 - Quantity controls
@@ -172,6 +189,7 @@ Productiii/
 - Back navigation
 
 ### **Body Component**
+
 - Responsive grid layout
 - API data fetching with useEffect
 - Promotional discount banner
@@ -191,15 +209,18 @@ This project uses the [FakeStore API](https://fakestoreapi.com/) for product dat
 ## 🎯 Features in Detail
 
 ### **Responsive Grid System**
+
 ```jsx
 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
 ```
+
 - 1 column on mobile
 - 2 columns on small tablets
 - 3 columns on large tablets
 - 4 columns on desktop
 
 ### **Smooth Animations**
+
 - Transform scale on hover
 - Gradient transitions
 - Icon rotations
@@ -207,6 +228,7 @@ grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4
 - Translate movements
 
 ### **Color Scheme**
+
 - Primary: Blue (#2563EB)
 - Success: Green (#10B981)
 - Warning: Yellow (#F59E0B)
@@ -240,12 +262,12 @@ Contributions are welcome! Please follow these steps:
 
 ## 📝 Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Build for production     |
 | `npm run preview` | Preview production build |
-| `npm run lint` | Run ESLint |
+| `npm run lint`    | Run ESLint               |
 
 ---
 
@@ -280,10 +302,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Prince Patel**
 
 - GitHub: [@princewritecode](https://github.com/princewritecode)
-- LinkedIn: [Prince Patel](www.linkedin.com/in/princecode)
+- LinkedIn: [Prince Patel](https://www.linkedin.com/in/princecode/)
+- Portfolio: [Coming Soon](#)
+
 ---
 
 ## 🙏 Acknowledgments

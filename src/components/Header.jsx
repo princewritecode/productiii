@@ -1,7 +1,8 @@
 import { useState } from 'react';
-
+import { useSelector } from 'react-redux';
 const Header = () =>
 {
+    const cartItems = useSelector(store => store.cart.items);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
@@ -46,7 +47,7 @@ const Header = () =>
                                 </svg>
                                 Cart
                                 <span className="ml-1 bg-blue-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                                    0
+                                    {cartItems.length}
                                 </span>
                             </button>
                         </div>
