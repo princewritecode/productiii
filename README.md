@@ -10,7 +10,7 @@
 
 **A sleek, modern e-commerce platform built with React, featuring stunning UI/UX and seamless shopping experience**
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
+[Live Demo](https://productiii.vercel.app/) • [Report Bug](#) • [Request Feature](#)
 
 </div>
 
